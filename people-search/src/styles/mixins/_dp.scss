@@ -1,0 +1,9 @@
+/**
+ * @example dp(16);
+ * @function
+ * @see https://material.io/guidelines/layout/units-measurements.html#units-measurements-density-independent-pixels-dp
+ * @see https://sass-lang.com/documentation/file.SASS_REFERENCE.html#function_directives
+ */
+@function dp($value) {
+  @return ($value / 16) + 0rem;
+}

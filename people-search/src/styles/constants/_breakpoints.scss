@@ -1,0 +1,11 @@
+@import '../mixins/dp';
+
+$breakpoint-gt800: 'only screen and (max-width: ' + dp(800) + ')';
+$breakpoint-gt600: 'only screen and (min-width: ' + dp(600) + ')';
+$breakpoint-1-600: 'only screen and (min-width: ' + dp(1) + ') and (max-width: ' + dp(599) + ')';
+$breakpoint-1-991: 'only screen and (min-width: ' + dp(1) + ') and (max-width: ' + dp(991) + ')';
+$breakpoint-480-600: 'only screen and (min-width: ' + dp(481) + ') and (max-width: ' + dp(599) + ')';
+$breakpoint-415-480: 'only screen and (min-width: ' + dp(415) + ') and (max-width: ' + dp(480) + ')';
+$breakpoint-320-415: 'only screen and (min-width: ' + dp(320) + ') and (max-width: ' + dp(414) + ')';
+$breakpoint-lt320: 'only screen and (max-width: ' + dp(319) + ')';
+$breakpoint-gt990: 'only screen and (min-width: ' + dp(990) + ')';
